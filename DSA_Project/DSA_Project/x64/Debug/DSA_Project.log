@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\noname\Desktop\DSA_Project\DSA_Project\DSA_Project\Processor\FCFS\FCFSProcessor.h(23,1): error C2027: use of undefined type 'Scheduler'
+C:\Users\noname\Desktop\DSA_Project\DSA_Project\DSA_Project\Processor\Processor.h(7): message : see declaration of 'Scheduler'
+C:\Users\noname\Desktop\DSA_Project\DSA_Project\DSA_Project\Processor\SJF\SJFProcessor.h(33,1): error C2027: use of undefined type 'Scheduler'
+C:\Users\noname\Desktop\DSA_Project\DSA_Project\DSA_Project\Processor\Processor.h(7): message : see declaration of 'Scheduler'
+C:\Users\noname\Desktop\DSA_Project\DSA_Project\DSA_Project\Processor\RR\RRProcessor.h(31,1): error C2027: use of undefined type 'Scheduler'
+C:\Users\noname\Desktop\DSA_Project\DSA_Project\DSA_Project\Processor\Processor.h(7): message : see declaration of 'Scheduler'

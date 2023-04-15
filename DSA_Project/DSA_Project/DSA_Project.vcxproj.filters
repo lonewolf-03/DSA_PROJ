@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{302d304c-4e57-40cd-87da-6ff89bc01c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\PQueue">
+      <UniqueIdentifier>{9ae7d010-ac6c-4a6b-9f46-58eba64787f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\List">
+      <UniqueIdentifier>{3367dfd3-dc8a-4caf-9a60-dc644207c3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Queue">
+      <UniqueIdentifier>{6c313b2d-c92e-47af-b510-5b73ba7c4907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{b1b1a925-40a9-4c5f-bf21-7d7cd0ebf6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scheduler">
+      <UniqueIdentifier>{531fb5b8-0363-4867-b444-80caf9a9d690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processor">
+      <UniqueIdentifier>{6fa7af91-a437-4dbc-b038-c41809ee5232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processor\FCFS">
+      <UniqueIdentifier>{4d4c67c2-2b04-42ce-883d-aef688b0521e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processor\SJF">
+      <UniqueIdentifier>{f4a1e0e1-7d85-4c86-aa6d-e1d6ba90ffbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processor\RR">
+      <UniqueIdentifier>{6467b1bf-87b9-45fe-8a64-b558ceaa2663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UILayer">
+      <UniqueIdentifier>{815df0d8-d452-4eba-bd5c-6f755534b69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputFiles">
+      <UniqueIdentifier>{fdf6f06a-73f1-46b4-9fdb-b20cab6d8ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutputFiles">
+      <UniqueIdentifier>{a9fca755-3a5b-4bb7-9be8-ce5dc0ae10e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStructures\Node.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Queue\Queue.h">
+      <Filter>DataStructures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\List\ListADT.h">
+      <Filter>DataStructures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\PQueue\PQueue.h">
+      <Filter>DataStructures\PQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\PQueue\PQNode.h">
+      <Filter>DataStructures\PQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Process.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\Scheduler.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\Processor.h">
+      <Filter>Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\FCFS\FCFSProcessor.h">
+      <Filter>Processor\FCFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\SJF\SJFProcessor.h">
+      <Filter>Processor\SJF</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer\UI.h">
+      <Filter>UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\RR\RRProcessor.h">
+      <Filter>Processor\RR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file.txt" />
+  </ItemGroup>
+</Project>
